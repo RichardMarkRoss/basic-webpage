@@ -26,8 +26,6 @@ border-style: solid;
   height: 10%;
   border-radius: 50%;
   margin: auto;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .container{
@@ -37,7 +35,6 @@ display: block;
 /*background-color:#ffffb3;*/
 margin-left: auto;
 margin-right: auto;
-padding: 10px;
 }
 .city{
 width: 50%;
@@ -63,9 +60,8 @@ display: inline-block;
 .paris{
   height: 80%;
   width: 80%;
-  padding: 20px;
   border-radius: 50%;
-  float: right;
+  float: left;
   margin: auto;
 
 }
