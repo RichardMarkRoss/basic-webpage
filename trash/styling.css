@@ -1,10 +1,9 @@
-
 .theHeader{
 /*background-color: lightpink;*/
-height: 100%;
-width: 90%;
-margin-left: auto;
-margin-right: auto;
+height: 50%;
+width: 100%;
+/*margin-left: auto;
+margin-right: auto;*/
 margin: auto;
 border-color: LightGray;
 border-style: solid;
@@ -26,8 +25,8 @@ border-style: solid;
   height: 10%;
   border-radius: 50%;
   margin: auto;
-  /*padding-left: 10px;
-  padding-right: 10px;*/
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .container{
@@ -37,9 +36,11 @@ display: block;
 /*background-color:#ffffb3;*/
 margin-left: auto;
 margin-right: auto;
+padding: 10px;
+position: relative;
 }
 .city{
-width: 70%;
+width: 50%;
 height: 33%;
 /*background-color: LightGray;*/
 margin-left: auto;
@@ -62,6 +63,7 @@ display: inline-block;
 .paris{
   height: 80%;
   width: 80%;
+  padding: 20px;
   border-radius: 50%;
   float: right;
   margin: auto;
@@ -74,26 +76,39 @@ display: inline-block;
   margin-left: auto;
   margin-right: auto;
 }
-.tablet{
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+/*.tablet{
   width: 80%;
   height: 95%;
-  margin: auto;
+  margin: auto;*/
 
 }
 .places{
-  width: 100%;
+  /*width: 100%;*/
   height: 33%;
   /*background-color: LightGray;*/
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: auto;
   display: inline-block;
 }
 .P1{
   width: 32%;
   height: 90%;
   /*float: left;*/
-  border-color: LightGray;
-  border-style: solid;
+  /*border-color: LightGray;*/
+  /*border-style: solid;*/
   display: inline-block;
 
 }
@@ -113,18 +128,3 @@ display: inline-block;
   height: 90%;
   border-radius: 50%;
   display: inline-block;
-}
-/*.P2{
-  width: 32%;
-  height: 90%;
-  float: left;
-  border-color: LightGray;
-  border-style: solid;
-}*/
-/*.P3{
-  width: 32%;
-  height: 90%;
-  float: left;
-  border-color: LightGray;
-  border-style: solid;
-}*/
