@@ -94,11 +94,7 @@ display: inline-block;
   width: 45%;
   /*float: left;*/
   display: inline-block;
-  padding: 20px;
-}
-@media (max-width: 550px) {
-  .pp1{
-  }
+  padding: 10px;
 }
 .ppp1{
   width: 40%;
