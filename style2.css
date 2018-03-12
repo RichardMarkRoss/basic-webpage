@@ -96,6 +96,11 @@ display: inline-block;
   display: inline-block;
   padding: 20px;
 }
+@media (min-width: 550px) {
+  .pp1{
+   display: none;
+  }
+}
 .ppp1{
   width: 40%;
   height: 90%;
@@ -103,3 +108,17 @@ display: inline-block;
   display: inline-block;
   padding: 20px;
 }
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
