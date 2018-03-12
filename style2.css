@@ -82,12 +82,13 @@ display: inline-block;
 }
 .P1{
   width: 30%;
-  height: 90%;
+  height: 91%;
   border-color: LightGray;
   border-style: solid;
   display: inline-block;
   padding: 20px;
 }
+
 .pp1{
   height: 60%;
   width: 45%;
@@ -95,6 +96,7 @@ display: inline-block;
   display: inline-block;
   padding: 10px;
 }
+
 .ppp1{
   width: 40%;
   height: 90%;
@@ -102,17 +104,3 @@ display: inline-block;
   display: inline-block;
   padding: 20px;
 }
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
