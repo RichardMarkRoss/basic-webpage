@@ -96,9 +96,8 @@ display: inline-block;
   display: inline-block;
   padding: 20px;
 }
-@media (min-width: 550px) {
+@media (max-width: 550px) {
   .pp1{
-   display: none;
   }
 }
 .ppp1{
