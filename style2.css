@@ -81,13 +81,12 @@ display: inline-block;
   display: inline-block;
 }
 .P1{
-  width: 32%;
+  width: 30%;
   height: 90%;
   border-color: LightGray;
   border-style: solid;
   display: inline-block;
   padding: 20px;
-
 }
 .pp1{
   height: 60%;
