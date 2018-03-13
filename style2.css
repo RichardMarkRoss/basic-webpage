@@ -45,7 +45,7 @@ display: inline-block;
 }
 .C1{
   height: 100%;
-  width: 50%;
+  width: 400px;
   float: left;
   margin: auto;
 }
@@ -54,6 +54,7 @@ display: inline-block;
   width: 50%;
   float: left;
   margin: auto;
+  padding: 7%;
 }
 .paris{
   height: 80%;
